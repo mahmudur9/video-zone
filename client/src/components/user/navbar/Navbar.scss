@@ -1,0 +1,61 @@
+// Transition
+$transition: all 0.5s;
+
+.navbar {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  .container-fluid {
+    .navbar-brand{
+      font-family: "Roboto-Bold", sans-serif;
+      font-style: italic;
+    }
+    padding: 0 100px 0 100px;
+    .navbar-nav {
+      .nav-item {
+        a {
+          font-family: "Roboto-Medium", sans-serif;
+        }
+        .category-dropdown-item {
+          cursor: pointer;
+        }
+      }
+      .logout-item {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+// responsive
+@media only screen and (max-width: 450px) {
+
+}
+@media only screen and (max-width: 600px) {
+
+}
+/* Small devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    #nvabar-container-id {
+      padding: 0 20px 0 20px;
+    }
+  }
+}
+
+/* Medium devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+}
+
+/* Large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1400px) {
+  .navbar {
+    .container-fluid {
+      padding: 0 40px 0 40px;
+    }
+  }
+}

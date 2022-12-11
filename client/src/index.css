@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-width: 300px;
+  font-family: "Roboto-Regular", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #212529 !important;
+}
+
+thead, th, h1, h2, h3, h4, h5, h6{
+  font-family: "Roboto-Bold", sans-serif;
+}
+.action-button {
+  cursor: pointer;
+}
+a{
+  text-decoration: none !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

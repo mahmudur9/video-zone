@@ -1,0 +1,28 @@
+nav{
+  ul{
+    .dropdown-logo{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    /*.dropdown-logo-user-email{
+      margin-right: 5px;
+    }*/
+  }
+  .navbar-brand{
+    font-family: "Roboto-Bold", sans-serif;
+    color: #0091ea !important;
+  }
+}
+#layoutSidenav{
+  font-family: "Roboto-Regular", sans-serif;
+}
+.main-container{
+  padding-top: 20px;
+}
+footer{
+  .footer-text{
+
+  }
+}

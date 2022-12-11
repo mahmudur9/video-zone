@@ -1,0 +1,6 @@
+$select-menu-text-color: #a3a7b8;
+.add-video-container {
+  select, option, select:focus, option:focus{
+    color: $select-menu-text-color;
+  }
+}

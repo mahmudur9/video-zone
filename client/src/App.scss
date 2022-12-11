@@ -1,0 +1,16 @@
+// variable overrides
+@import "variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+/*Roboto*/
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: local('Roboto-Regular'), url(./assets/fonts/Roboto-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: local('Roboto-Bold'), url(./assets/fonts/Roboto-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: local('Roboto-Medium'), url(./assets/fonts/Roboto-Medium.ttf) format("truetype");
+}

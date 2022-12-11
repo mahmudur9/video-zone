@@ -1,0 +1,109 @@
+.video-widget-main-container {
+  .video-widget-container {
+    .row {
+      .avatar-title {
+        display: flex;
+        align-items: center;
+        .video-title {
+          margin-left: 10px;
+        }
+      }
+      .video-description {
+        font-family: Roboto-Medium, sans-serif;
+      }
+      .like-comment-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .like-container {
+          .like-count {
+            font-size: 19px;
+            font-family: Roboto-Regular, sans-serif;
+          }
+          .bar {
+            margin-left: 5px;
+            margin-right: 5px;
+            border-left: 1px solid #757575;
+          }
+          .like-icon {
+            color: #bdbdbd;
+          }
+          .dislike-icon {
+            color: #bdbdbd;
+          }
+        }
+        .view-container {
+          font-family: Roboto-Regular, sans-serif;
+          font-size: 19px;
+        }
+      }
+      .write-comment-container {
+        margin-top: 10px;
+        .write-comment-field {
+          border: none;
+          border-bottom: 1.5px solid #bdbdbd;
+          outline: none;
+          width: 100%;
+        }
+        .write-comment-field:focus {
+          color: #bdbdbd;
+        }
+      }
+      .comment-list-container {
+        .comment-item-box {
+          display: flex;
+          //border: 1px solid #bdbdbd;
+          margin-bottom: 20px;
+          padding: 10px;
+          border-radius: 7px;
+          .comment-name-and-text {
+            margin-left: 10px;
+            font-family: Roboto-Regular, sans-serif;
+            position: relative;
+            .commenter-name {
+              line-height: 20px;
+              font-size: 15px;
+
+              .comment-edit-delete-menu {
+                font-size: 11px;
+                margin-left: 4px;
+                line-height: 0;
+              }
+            }
+            .comment-text {
+              font-size: 15px;
+              margin: 0;
+            }
+
+            .comment-edit-delete-button-container {
+              width: 100px;
+              height: 20px;
+              background-color: black;
+              border-radius: 5px;
+              position: absolute;
+              left: 100px;
+              bottom: 50px;
+              display: flex;
+              justify-content: center;
+              font-family: Roboto-Medium, sans-serif;
+              font-size: 14px;
+              .comment-edit-button {
+                border: none;
+                outline: none;
+                background: transparent;
+                color: #bdbdbd;
+              }
+              .comment-delete-button {
+                border: none;
+                outline: none;
+                background: transparent;
+                color: #bdbdbd;
+                margin-left: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

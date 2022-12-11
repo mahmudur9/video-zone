@@ -1,0 +1,56 @@
+.video-card-main-container {
+  .video-card-container {
+    .card {
+      .thumbnail-image-container {
+        img {
+          width: 100%;
+          height: 150px;
+          object-fit: cover;
+        }
+      }
+      .card-body {
+        .video-avatar-title-container {
+          display: flex;
+          .title-description-container {
+            margin-left: 10px;
+            .video-title {
+
+            }
+            .publisher-name {
+              margin: 0;
+              font-family: Roboto-Regular, sans-serif;
+              line-height: 8px;
+              font-size: 15px;
+            }
+            .views-count-publishing-time-container {
+              display: flex;
+              .views-count {
+                margin: 10px 0 0 0;
+                font-family: Roboto-Regular, sans-serif;
+                line-height: 8px;
+                font-size: 12px;
+              }
+              .ago {
+                margin: 10px 0 0 5px;
+                font-family: Roboto-Regular, sans-serif;
+                line-height: 8px;
+                font-size: 12px;
+              }
+            }
+          }
+        }
+        .video-action-button-container {
+          display: flex;
+          .edit-icon-link {
+            margin: 0;
+            padding: 0;
+            line-height: 0;
+          }
+          .delete-icon {
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+  }
+}
